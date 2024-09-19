@@ -1,7 +1,7 @@
 # Automatic-Fish-Feeder
 The feeder is designed to dispense fish food at regular intervals, ensuring your aquatic pets are well-nourished.
 
-Overview
+# Overview
 
 The Automatic Fish Feeder is an IoT-enabled device designed to automate the feeding process in aquariums and fish farms. By integrating technologies like Arduino, NodeMCU, RTC, and temperature sensors, this feeder provides timely and measured feeding, ensuring optimal fish health while reducing the burden of manual intervention.
 Features
@@ -12,7 +12,7 @@ Remote Monitoring: Wi-Fi-enabled monitoring and control via mobile or web applic
 Environmental Monitoring: Tracks water temperature to optimize feeding.
 Alert System: Sends notifications when the feed storage is low.
 
-Hardware Components
+# Hardware Components
 
 Arduino Uno: Main microcontroller that manages the feeding schedule.
 NodeMCU ESP8266: Provides Wi-Fi connectivity for remote access.
@@ -21,12 +21,12 @@ RTC (DS3231): Maintains accurate feeding times.
 LCD Display: Displays system status and feeding times.
 Power Supply: Ensures a steady supply of power for all components.
 
-Software Requirements
+# Software Requirements
 
 Arduino IDE: Used for programming the Arduino and NodeMCU.
 Embedded C: The project uses Embedded C for coding and managing the fish feeder's functionality.
 
-System Architecture
+# System Architecture
 
 Arduino Uno controls feeding intervals and manages motor operations.
 NodeMCU ESP8266 provides Wi-Fi connectivity for remote control and monitoring.
@@ -34,7 +34,10 @@ RTC (DS3231) ensures accurate timekeeping for scheduled feeding.
 Servo Motor dispenses the fish feed as per the programmed schedule.
 LCD Display provides real-time feedback on system operations and alerts.
 
-Installation and Setup
+![image](https://github.com/user-attachments/assets/d8d7f45b-0e71-4898-880b-db7a896ab947)
+
+
+# Installation and Setup
 
 Clone the repository.
 
@@ -45,24 +48,30 @@ Upload the code to Arduino Uno and NodeMCU ESP8266.
 Power up the system and configure Wi-Fi credentials for remote monitoring.
 Set up the feeding schedule and monitor environmental factors.
 
-Usage
+# Usage
 
 Use the LCD display to monitor current feeding schedules and sensor data.
 Connect to the feeder remotely via the web interface for control and updates.
 Set custom feeding intervals based on the fish's dietary needs.
 
-Results
+# Results
 
 Improved feeding efficiency with reduced wastage.
 Enhanced fish health due to timely and controlled feeding.
 Remote monitoring and management allow for greater convenience.
 
-Future Enhancements
+![image](https://github.com/user-attachments/assets/b7475e60-989c-436c-a4f9-0e04d834eb2f)
+
+![image](https://github.com/user-attachments/assets/812a8beb-27ef-4863-a390-00acb33f5a36)
+
+
+
+# Future Enhancements
 
 Integration of AI for adaptive feeding based on fish behavior.
 Solar-powered operation for increased sustainability.
 Expandable for larger aquaculture systems with multiple tanks.
 
-License
+# License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
