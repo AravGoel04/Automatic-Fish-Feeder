@@ -34,11 +34,12 @@ System Architecture
     Servo Motor dispenses the fish feed as per the programmed schedule.
     LCD Display provides real-time feedback on system operations and alerts.
 
+    ![image](https://github.com/user-attachments/assets/0833b50a-ad2b-42b1-a513-1e1fc78264ad)
+
+
 Installation and Setup
 
 Clone the repository.
-
-bash
 
     git clone https://github.com/username/automatic-fish-feeder.git
 
