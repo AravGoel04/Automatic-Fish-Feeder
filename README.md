@@ -34,3 +34,37 @@ System Architecture
     Servo Motor dispenses the fish feed as per the programmed schedule.
     LCD Display provides real-time feedback on system operations and alerts.
 
+Installation and Setup
+
+Clone the repository.
+
+bash
+
+    git clone https://github.com/username/automatic-fish-feeder.git
+
+    Open the project in Arduino IDE.
+    Upload the code to Arduino Uno and NodeMCU ESP8266.
+    Power up the system and configure Wi-Fi credentials for remote monitoring.
+    Set up the feeding schedule and monitor environmental factors.
+
+Usage
+
+    Use the LCD display to monitor current feeding schedules and sensor data.
+    Connect to the feeder remotely via the web interface for control and updates.
+    Set custom feeding intervals based on the fish's dietary needs.
+
+Results
+
+    Improved feeding efficiency with reduced wastage.
+    Enhanced fish health due to timely and controlled feeding.
+    Remote monitoring and management allow for greater convenience.
+
+Future Enhancements
+
+    Integration of AI for adaptive feeding based on fish behavior.
+    Solar-powered operation for increased sustainability.
+    Expandable for larger aquaculture systems with multiple tanks.
+
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
